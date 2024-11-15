@@ -1,7 +1,9 @@
+import Weather from "./Weather";
+
 function App() {
   return (
-    <div className="App">
-      123
+    <div id="wrap">
+      <Weather/>
     </div>
   );
 }

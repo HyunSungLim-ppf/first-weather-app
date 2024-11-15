@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* api icon 정보에 따라 낮과 밤 배경색 */
+body.day {
+    background: linear-gradient(45deg, #a0956f, #f74e4e);
+}
+body.night {
+    background: linear-gradient(45deg, #3b1436, #6653bb);
+}
+
+img[src$="load.gif"] {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+.weatherImg {
+    width: 160px;
+}
+#wrap {
+    font-family: 'Noto Sans KR',sans-serif;
+    letter-spacing: -1px;
+    margin: 0 auto;
+    min-width: 600px;
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 32px;
+}
+#wrap section {
+    padding: 32px 60px !important;
+    background: rgba(255,255,255,0.12);
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.08);
+    border: 1px solid #999;
+}
+button {
+    cursor: pointer;
+}
+#wrap .weatherIcon {
+    font-size: 120px;
+    margin-bottom: 40px;
+}
+#wrap div {
+    margin-bottom: 24px;
+    font-size: 18px;
+    color: #eee;
+}
+#wrap h2 {
+    margin-bottom: 36px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+}
+#wrap .weather div:nth-child(2) {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.areaList {
+    width: 203px;
+    margin-top: 8px;
+    padding: 4px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
